@@ -7,8 +7,6 @@
  */
 int main(void)
 {
-	char Name[] = "and that piece of art is useful - Dora Korpar, 2015-10-19";
-
-	write("%s\n", Name);
+	fputc("and that piece of art is useful - Dora Korpar, 2015-10-19\n", stdout);
 	return (1);
 }
