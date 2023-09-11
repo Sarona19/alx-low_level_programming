@@ -26,3 +26,4 @@ int main(void)
 		printf("%d is Nagative\n", n);
 	}
 	return (0);
+}
