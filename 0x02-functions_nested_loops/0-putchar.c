@@ -1,5 +1,5 @@
 #include "main.h"
-#ifndef "MAIN.H"
+
 /**
  * main - Entry point to start.
  * Description: that prints _putchar, followed by a new line.
