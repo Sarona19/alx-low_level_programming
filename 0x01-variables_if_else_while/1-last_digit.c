@@ -5,6 +5,8 @@
 /**
  * main - print the last digit of the number stored in the variable n
  *
+ * Description:print the value of n status:
+ *		greater than 5, is zero and less than 6
  * Return: always 0 (success)
  **/
 int main(void)
@@ -19,7 +21,7 @@ int main(void)
 		printf("last digit of %i is %i and is greater than 5\n", n, digit);
 	else if (digit < 6 && digit != 0)
 		printf("last digit of %i is %i less than 6 and not 0\n", n, digit);
-	else
+	else if (digit == 0)
 		printf("last digit of %i is %i and is 0\n", n, digit);
 	return (0);
 }
