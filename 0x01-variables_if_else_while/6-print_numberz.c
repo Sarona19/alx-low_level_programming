@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: prints all single digit numbers of base 10 starting from 0
+ * Description: prints 0-9 using putchar while using int variable
  *
  * Return: always 0 (success)
  **/
@@ -17,6 +17,6 @@ int main(void)
 		putchar(digit + '0');
 		digit++;
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
